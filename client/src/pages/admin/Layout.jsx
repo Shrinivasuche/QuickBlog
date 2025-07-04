@@ -11,7 +11,7 @@ const Layout = () => {
         localStorage.removeItem('token');
         axios.defaults.headers.common['Authorization'] = null;
         setToken(null);
-        navigate('/')
+        navigate('/');
     }
 
   return (
